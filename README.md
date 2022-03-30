@@ -1,7 +1,7 @@
 predictive_maintenance
 ==============================
 
-Machine learning implementation case for equipment failure prediction for academical purposes
+Machine learning implementation case for equipment failure prediction, developed for academical purposes :)
 
 Project Organization
 ------------
