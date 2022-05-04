@@ -1,0 +1,10 @@
+language: python
+python: "3.8"
+branches:
+  only:
+    - master
+    -"/^vestion-[0-999].[0-999]$/"
+notifications:
+  email:
+    recipients:
+      - ignacio.siguenzasierra@gmail.com
