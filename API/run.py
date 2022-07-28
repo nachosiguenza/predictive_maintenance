@@ -7,9 +7,10 @@ app = Flask(__name__)
 def home_page():
     if request.method == 'POST':
         model = pickle.load(open('../models/'))
-        user_input = request.form.get('variable_1')
-        model.predict([[user_input]])
-    return render_template('home.html')
+        user_input = float(request.form.get('variable_1'))
+        prediction = model.predict([[user_input]])
+        print(prediction)
+    return render_template('home.html', prediction=prediction)
 
 
 if __name__ == '__main__':
