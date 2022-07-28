@@ -1,0 +1,63 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+mlflow_version: 1.25.1
+model_uuid: 12c24986abdb44eeac56afe235d4edea
+run_id: 133f51d9ac0c474092f5f34870ece1f9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "unit_number", "type": "long"}, {"name": "cycles", "type": "long"},
+    {"name": "setting_1", "type": "double"}, {"name": "sensor_2", "type": "double"},
+    {"name": "sensor_3", "type": "double"}, {"name": "sensor_4", "type": "double"},
+    {"name": "sensor_6", "type": "double"}, {"name": "sensor_7", "type": "double"},
+    {"name": "sensor_8", "type": "double"}, {"name": "sensor_9", "type": "double"},
+    {"name": "sensor_11", "type": "double"}, {"name": "sensor_12", "type": "double"},
+    {"name": "sensor_13", "type": "double"}, {"name": "sensor_14", "type": "double"},
+    {"name": "sensor_15", "type": "double"}, {"name": "sensor_17", "type": "long"},
+    {"name": "sensor_20", "type": "double"}, {"name": "sensor_21", "type": "double"},
+    {"name": "RUL", "type": "long"}, {"name": "too_soon", "type": "long"}, {"name":
+    "sensor_2_mean", "type": "double"}, {"name": "sensor_2_median", "type": "double"},
+    {"name": "sensor_2_max", "type": "double"}, {"name": "sensor_2_min", "type": "double"},
+    {"name": "sensor_3_mean", "type": "double"}, {"name": "sensor_3_median", "type":
+    "double"}, {"name": "sensor_3_max", "type": "double"}, {"name": "sensor_3_min",
+    "type": "double"}, {"name": "sensor_4_mean", "type": "double"}, {"name": "sensor_4_median",
+    "type": "double"}, {"name": "sensor_4_max", "type": "double"}, {"name": "sensor_4_min",
+    "type": "double"}, {"name": "sensor_6_mean", "type": "double"}, {"name": "sensor_6_median",
+    "type": "double"}, {"name": "sensor_6_max", "type": "double"}, {"name": "sensor_6_min",
+    "type": "double"}, {"name": "sensor_7_mean", "type": "double"}, {"name": "sensor_7_median",
+    "type": "double"}, {"name": "sensor_7_max", "type": "double"}, {"name": "sensor_7_min",
+    "type": "double"}, {"name": "sensor_8_mean", "type": "double"}, {"name": "sensor_8_median",
+    "type": "double"}, {"name": "sensor_8_max", "type": "double"}, {"name": "sensor_8_min",
+    "type": "double"}, {"name": "sensor_9_mean", "type": "double"}, {"name": "sensor_9_median",
+    "type": "double"}, {"name": "sensor_9_max", "type": "double"}, {"name": "sensor_9_min",
+    "type": "double"}, {"name": "sensor_11_mean", "type": "double"}, {"name": "sensor_11_median",
+    "type": "double"}, {"name": "sensor_11_max", "type": "double"}, {"name": "sensor_11_min",
+    "type": "double"}, {"name": "sensor_12_mean", "type": "double"}, {"name": "sensor_12_median",
+    "type": "double"}, {"name": "sensor_12_max", "type": "double"}, {"name": "sensor_12_min",
+    "type": "double"}, {"name": "sensor_13_mean", "type": "double"}, {"name": "sensor_13_median",
+    "type": "double"}, {"name": "sensor_13_max", "type": "double"}, {"name": "sensor_13_min",
+    "type": "double"}, {"name": "sensor_14_mean", "type": "double"}, {"name": "sensor_14_median",
+    "type": "double"}, {"name": "sensor_14_max", "type": "double"}, {"name": "sensor_14_min",
+    "type": "double"}, {"name": "sensor_15_mean", "type": "double"}, {"name": "sensor_15_median",
+    "type": "double"}, {"name": "sensor_15_max", "type": "double"}, {"name": "sensor_15_min",
+    "type": "double"}, {"name": "sensor_17_mean", "type": "double"}, {"name": "sensor_17_median",
+    "type": "double"}, {"name": "sensor_17_max", "type": "double"}, {"name": "sensor_17_min",
+    "type": "double"}, {"name": "sensor_20_mean", "type": "double"}, {"name": "sensor_20_median",
+    "type": "double"}, {"name": "sensor_20_max", "type": "double"}, {"name": "sensor_20_min",
+    "type": "double"}, {"name": "sensor_21_mean", "type": "double"}, {"name": "sensor_21_median",
+    "type": "double"}, {"name": "sensor_21_max", "type": "double"}, {"name": "sensor_21_min",
+    "type": "double"}]'
+  outputs: null
+utc_time_created: '2022-07-28 09:56:09.027958'

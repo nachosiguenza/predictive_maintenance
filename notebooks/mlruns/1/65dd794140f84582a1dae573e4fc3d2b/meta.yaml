@@ -1,0 +1,15 @@
+artifact_uri: file:///X:/Academico/CUNEF/TFM/predictive_maintenance/notebooks/mlruns/1/65dd794140f84582a1dae573e4fc3d2b/artifacts
+end_time: 1659002168600
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 65dd794140f84582a1dae573e4fc3d2b
+run_uuid: 65dd794140f84582a1dae573e4fc3d2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1659002168176
+status: 3
+tags: []
+user_id: Nacho
