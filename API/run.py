@@ -1,13 +1,12 @@
-from distutils.log import debug
-from flask import Flask
-
+from flask import Flask, jsonify, render_template
+import pickle
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def home_page():
-    return 'Mantenimiento predictivo'
-
+    model = pickle.load(open('../models/'))
+    return render_template('home.html')
 
 
 if __name__ == '__main__':
